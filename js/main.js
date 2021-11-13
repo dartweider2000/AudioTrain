@@ -26,5 +26,7 @@ document.querySelector('.button').addEventListener('click', async () => {
       })
    };
 
+   console.log("!!");
+
    await go(1000);
 });
